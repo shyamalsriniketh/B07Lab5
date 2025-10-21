@@ -13,7 +13,7 @@ public class Rectangle {
 		return 2 * height + 2 * width;
 	}
 
-	public boolean area() {
+	public double area() {
 		return height * width;
 	}
 }
