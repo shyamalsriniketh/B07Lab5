@@ -2,9 +2,8 @@
 public class Square {
 	double side_length;
 	
-	public Square(int x) 
+	public Square(double x) 
 		side_length = x;
-	
 	
 	public double calc_area() 
 		return side_length * side_length;
@@ -12,7 +11,7 @@ public class Square {
 	public double perimeter() 
 		return side_length * 4;
 	
-	public void set_length(int x) 
+	public void set_length(double x) 
 		side_length = x;
 	
 	public double get_length() 
