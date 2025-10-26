@@ -4,6 +4,20 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class RectangleTest {
+  
+  @Test
+	void testPerimeter() {
+		Rectangle r1= new Rectangle(2,4);
+		double test= r1.perimeter();
+		assertEquals(test,12);
+	}
+	
+	@Test
+	void testArea() {
+		Rectangle r1= new Rectangle(2,4);
+		double test= r1.area();
+		assertEquals(test,8);
+	}
 
     @Test
     public void testConstructorAndGetters() {
